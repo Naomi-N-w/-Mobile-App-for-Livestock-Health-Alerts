@@ -68,7 +68,7 @@ This project uses AI and sensor data to monitor livestock health. By analyzing t
 
 ##  Try It Yourself!
 🔗 View the Interactive Dashboard:
-👉 https://your-streamlit-app-name.streamlit.app
+👉 [https://your-streamlit-app-name.streamlit.app](http://localhost:8501/)
 
 📘 Clone this repository:
    ```bash
