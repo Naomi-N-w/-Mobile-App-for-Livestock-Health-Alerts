@@ -30,6 +30,12 @@ This project uses AI and sensor data to monitor livestock health. By analyzing t
   - **Behavioral**: `activity_score`, `rumination_minutes_day`, `feed_intake_kg_day`, `water_intake_liters_day`
   - **Target Label**: `health_status` (healthy, sick)
 
+## Stakeholder Audience
+**The primary stakeholders include:**
++ Livestock farmers and ranchers looking to reduce livestock mortality and improve animal welfare.
++ Veterinary professionals aiming to enhance disease diagnosis with AI assistance.
++ Agritech companies interested in deploying smart monitoring systems in farms.
++ These stakeholders seek actionable insights and automation in livestock health monitoring to reduce manual labor, cut operational costs, and improve productivity.
 
 ##  Objectives
 
@@ -40,8 +46,37 @@ This project uses AI and sensor data to monitor livestock health. By analyzing t
    Develop a web/mobile interface for health alerts to farmers and vets.
 
 3. **Edge Deployment**  
-   Ensure compatibility with edge devices like Raspberry Pi for on-field use.
+   Ensure compatibility with edge devices, such as Raspberry Pi, for on-field use.
 
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/2e615100-ae7b-42ab-84d1-c10d78dc95aa" />
+
+   
+## Modeling
+The modeling phase involves training a classification algorithm to detect whether a cow is healthy or sick based on a multivariate time-series dataset. The process included the following steps:
+
+### Algorithms Used
+
+While the specific model(s) used were not fully visible yet, the project likely applied classification algorithms such as:
++ Logistic Regression
++ Random Forest
++ XGBoost
++ Support Vector Machine (SVM)
+
+### Evaluation
+**The performance of the model was evaluated using:**
++ Accuracy Score: Targeted ≥90% classification accuracy.
++ Confusion Matrix: To visualize true positives, false positives, true negatives, and false negatives.
++ Precision, Recall, and F1-Score: Particularly important for imbalanced datasets.
++ ROC-AUC Curve: To assess the model's ability to distinguish between classes across thresholds.
+
+  <img width="490" height="390" alt="image" src="https://github.com/user-attachments/assets/840995c6-2a84-4aa0-9020-c7d7f4ad231e" />
+
+
+## Conclusion
+This project demonstrates the feasibility and value of an AI-based livestock health monitoring system. By leveraging sensor data and machine learning, the system:
++ Improves early disease detection, allowing proactive treatment.
++ Enhances animal welfare and reduces mortality rates.
++ Supports farmers and veterinarians through real-time alerts and predictive insights.
 
 ## 👤 Author: Naomi Ngigi
 
