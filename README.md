@@ -4,27 +4,6 @@
 
 + An AI-powered system that monitors livestock (specifically cows) using physiological, behavioral, and environmental sensor data. The goal is to detect signs of illness early and assist farmers and veterinarians in making proactive health decisions through predictive analytics.
 
-
-## 📑 Table of Contents
-
-- [Overview](#overview)
-- [Business and Data Understanding](#business-and-data-understanding)
-- [Objectives](#objectives)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Dependencies](#dependencies)
-- [Configuration](#configuration)
-- [Modeling](#modeling)
-- [Evaluation](#evaluation)
-- [Conclusion](#conclusion)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
-
----
-
 ##  Overview
 
 This project uses AI and sensor data to monitor livestock health. By analyzing time-series data collected from sensors on cows, the system predicts health conditions (healthy or sick) and sends alerts in real-time. This aids in early detection, reduces livestock mortality, and boosts farm productivity.
