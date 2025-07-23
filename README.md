@@ -82,7 +82,7 @@ This project demonstrates the feasibility and value of an AI-based livestock hea
 
 ##  Try It Yourself!
 🔗 View the Interactive Dashboard:
-👉 [https://your-streamlit-app-name.streamlit.app](http://localhost:8501/)
+👉 [[https://your-streamlit-app-name.streamlit.app](http://localhost:8501/)](http://192.168.100.5:8501)
 
 📘 Clone this repository:
    ```bash
