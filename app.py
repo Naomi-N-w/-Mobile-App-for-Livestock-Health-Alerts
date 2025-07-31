@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pkg_resources
-st.write([pkg.key for pkg in pkg_resources.working_set])
 import joblib
 import tensorflow as tf
 
